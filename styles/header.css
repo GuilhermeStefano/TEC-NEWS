@@ -1,0 +1,17 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    font: var(--text-sm);
+    color: var(--text-color-secondary);
+    border-top: 1px solid var(--stroke-color, #1E293B);
+border-bottom: 1px solid var(--stroke-color, #1E293B);
+width: 100vw;
+padding: 14px 32px;
+align-items: flex-start;
+}
+
+header span {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
