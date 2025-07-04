@@ -2,7 +2,6 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    background: var(--bg-color);
 }
 
 :root {
@@ -20,4 +19,23 @@
     --text-md: bolder 14px/140% var(--font-family);
     --text-sm: bold 14px/145% var(--font-family);
     --text-exsm: normal 14px/160% var(--font-family);
+    }
+
+    .grid-flow-col {
+        display: grid;
+        grid-auto-flow : column
+    }
+
+    img {
+        max-width: 100%;
+    }
+    
+    body {
+        background: var(--bg-color);
+        
+    }
+
+    article {
+        overflow: hidden;
+        margin: 40px 30px 80px 30px;
     }
